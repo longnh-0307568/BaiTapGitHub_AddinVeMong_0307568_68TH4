@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+
+            <TextBlock Text="Xin chào WPF!"
+                   FontSize="20"
+                   Margin="0,0,0,10"
+                   HorizontalAlignment="Center"/>
+
+            <Button Content="Bấm thử"
+                Width="120"
+                Height="35"
+                Click="Button_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
